@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logoleft{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logoright{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.content1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding: 23px;   
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    align-content: center;
+    padding: 20px;
+
+}
+.content4{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.c4text{
+     width: 500px;
+     text-align: start;
+}
+.c4lorem{
+    text-align: start;
+}
+.content5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.content6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.c6text{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 40px;
+}
+
+.content7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    background-image:url(Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
+    background-size: cover;
+    background-position:top;
+}
+.c7b{
+    display: flex;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 2cap;
+}
+
+button{
+    display: flex;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 15px;
+    align-items: center;
+    color: bisque;
+}
+input{
+    background-color: transparent;
+    border: 1px solid rgb(146, 143, 143);
+    width: 170px;
+    height: 24px;
+    font-size:x-small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+p{
+    padding: 10px;
+    font-size:smaller;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+
+}
+i{
+    font-size: x-large;
+}

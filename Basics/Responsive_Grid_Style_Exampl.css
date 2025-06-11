@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(81, 81, 157);
+    grid-area: headerarea;
+}
+.menu{
+    background-color: brown;
+    grid-area: menuarea;
+}
+.hero{
+    background-color:rgb(105, 172, 249) ;
+    grid-area: heroarea;
+}
+.main{
+    background-color: rgb(81, 81, 157);
+    grid-area: mainarea;
+}
+.blank{
+    background-color: white;
+    grid-area: blankarea;
+}
+.image{
+    background-color: rgb(217, 252, 241);
+    grid-area: imagearea;
+}
+.extra{
+    background-color: rgb(49, 189, 142);
+    grid-area: extraarea;
+}
+.banner{
+    background-color: yellow;
+    grid-area: bannerarea;
+}
+body{
+    display: grid;
+    grid-template-areas: 'headerarea menuarea menuarea menuarea'
+                         'heroarea heroarea heroarea heroarea'
+                         'mainarea mainarea blankarea imagearea'
+                         'mainarea mainarea blankarea extraarea'
+                         'bannerarea bannerarea bannerarea bannerarea';
+    /* grid-template-columns: 1fr 4fr; */
+    grid-template-rows: 1fr 4fr 1fr 1fr 1fr;
+    height: 100vh;
+    gap: 10px;
+}

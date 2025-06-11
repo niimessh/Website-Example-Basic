@@ -1,0 +1,27 @@
+.Navbar{
+    background-color: greenyellow;
+    grid-area: navbararea;
+}
+.Header{
+    background-color: palevioletred;
+    grid-area: headerarea;
+}
+.Footer{
+    background-color: lightblue;
+    grid-area: footerarea;
+}
+.Content{
+    background-color: bisque;
+    grid-area: contentarea;
+}
+body{
+    display: grid;
+    grid-template-areas: 'headerarea headerarea headerarea'
+                         'navbararea contentarea contentarea'
+                         'navbararea footerarea footerarea';
+
+    height: 100vh;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+}

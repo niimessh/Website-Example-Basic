@@ -1,0 +1,65 @@
+.header{
+    background:linear-gradient(to right,rgb(96, 149, 234),rgb(48, 50, 176));
+    grid-area: headerarea;
+    border: 4px solid black;
+    text-align: center;
+    align-content: center;
+}
+.sidebar{
+    background-color: aqua;
+    grid-area: sidebararea;
+    border: 4px solid black;
+    text-align: center;
+    align-content: center;
+}
+.footer{
+    background:linear-gradient(to right,rgb(28, 109, 240),rgb(115, 182, 226));
+    grid-area: footerarea;
+    border: 4px solid black;
+    text-align: center;
+    align-content: center;
+}
+.mainbody{
+    grid-area: mainbodyarea;
+    display: grid;
+    grid-template-areas: 'mbc1area mbc1area'
+                         'mbc2area mbc3area';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+body{
+    grid-template-areas: 'headerarea headerarea headerarea'
+                         'sidebararea mainbodyarea mainbodyarea'
+                         'footerarea footerarea footerarea';
+    background-color: rgb(62, 60, 60);
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+}
+.mbc1{
+    grid-area: mbc1area;
+    background:linear-gradient(to right,rgb(28, 109, 240),rgb(115, 182, 226));
+    text-align: center;
+    text-align: center;
+    align-content: center;
+    border: 4px solid ;
+}
+.mbc2{
+    grid-area: mbc2area;
+    background:linear-gradient(to right,rgb(100, 100, 203),rgb(91, 146, 182));
+    text-align: center;
+    text-align: center;
+    align-content: center;
+    border: 4px solid ;
+}
+.mbc3{
+    grid-area: mbc3area;
+    background:linear-gradient(to right,rgb(88, 88, 242),rgb(101, 179, 232));
+    text-align: center;
+    text-align: center;
+    align-content: center;
+    border: 4px solid ;
+}
